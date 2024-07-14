@@ -1,0 +1,33 @@
+{
+    "type": "pickaxe",
+    "itemName": "Default Pickaxe to Raider's Revenge",
+    "itemDefinition": "DefaultPickaxe",
+    "overrideItemDefinition": "Pickaxe_Lockjaw",
+    "overrideIcon": "https://i.imgur.com/b7FF1un.png",
+    "weaponDefinitions": [
+        {
+            "objectPath": "/Game/Athena/Items/Weapons/WID_Harvest_Pickaxe_Athena_C_T01",
+            "overrideObjectPath": "/Game/Athena/Items/Weapons/WID_Harvest_Pickaxe_Celestial",
+            "weaponMeshOverride": {
+                "objectPath": "/Game/Weapons/FORT_Melee/Meshes/SK_Pickaxe_PostApocalyptic.SK_Pickaxe_PostApocalyptic"
+            },
+            "largePreviewImage": {
+                "objectPath": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-SK-Pickaxe-PostApacolyptic-L.T-Icon-Pickaxes-SK-Pickaxe-PostApacolyptic-L"
+            },
+            "smallPreviewImage": {
+                "objectPath": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-SK-Pickaxe-PostApacolyptic.T-Icon-Pickaxes-SK-Pickaxe-PostApacolyptic"
+            },
+            "impactCue": {
+                "objectPath": "/Game/Sounds/Fort_Impact_Sounds/Flesh/Player_Impact_PA_LockJaw_Cue.Player_Impact_PA_LockJaw_Cue"
+            },
+            "weaponMaterialOverrides": [
+                {
+                    "materialOverride": {
+                        "objectPath": "/Game/Weapons/FORT_Melee/Materials/MI_FORT_Melee_Pick_Celestial.MI_FORT_Melee_Pick_Celestial"
+                    },
+                    "materialIndex": 0
+                }
+            ]
+        }
+    ]
+}

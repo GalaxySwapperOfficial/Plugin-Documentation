@@ -1,0 +1,14 @@
+{
+    "type": "backpack",
+    "itemName": "Pea Buddies to Black Shield",
+    "itemDefinition": "Backpack_SpeedyPeas",
+    "overrideItemDefinition": "BID_004_BlackKnight",
+    "customCharacterBackpackDatas": [
+        {
+            "athenaBackpackItemDefinition": {
+                "objectPath": "/BRCosmetics/Athena/Items/Cosmetics/Backpacks/Backpack_SpeedyPeas"
+            },
+            "objectPath": "/BRCosmetics/Characters/CharacterParts/Backpacks/Male_Commando_BlackKnight"
+        }
+    ]
+}

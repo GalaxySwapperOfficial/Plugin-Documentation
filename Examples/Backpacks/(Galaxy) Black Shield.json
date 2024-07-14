@@ -1,0 +1,22 @@
+{
+    "type": "backpack",
+    "itemName": "Pea Buddies to (Galaxy) Black Shield",
+    "itemDefinition": "Backpack_SpeedyPeas",
+    "overrideItemDefinition": "BID_004_BlackKnight",
+    "customCharacterBackpackDatas": [
+        {
+            "athenaBackpackItemDefinition": {
+                "objectPath": "/BRCosmetics/Athena/Items/Cosmetics/Backpacks/Backpack_SpeedyPeas"
+            },
+            "objectPath": "/BRCosmetics/Characters/CharacterParts/Backpacks/Male_Commando_BlackKnight",
+            "materialOverrides": [
+                {
+                    "overrideMaterial": {
+                        "objectPath": "/BRCosmetics/Accessories/FORT_Backpacks/Backpack_F_MED_Celestial/Materials/F_MED_Celestial_Backpack.F_MED_Celestial_Backpack"
+                    },
+                    "materialOverrideIndex": 0
+                }
+            ]
+        }
+    ]
+}

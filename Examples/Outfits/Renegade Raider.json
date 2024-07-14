@@ -1,0 +1,26 @@
+{
+    "type": "outfit",
+    "itemName": "Renegade Raider",
+    "itemDefinition": "CID_028_Athena_Commando_F",
+    "characterParts": [
+        {
+            "objectPath": "/BRCosmetics/Athena/Heroes/Meshes/Bodies/CP_028_Athena_Body",
+            "swaps": []
+        },
+        {
+            "objectPath": "/BRCosmetics/Athena/Heroes/Meshes/Heads/F_MED_ASN_Sarah_Head_02_ATH",
+            "swaps": []
+        },
+        {
+            "objectPath": "/BRCosmetics/Characters/CharacterParts/Hats/Hat_F_Commando_08_V01",
+            "swaps": []
+        }
+    ],
+    "heroDefinition": {
+        "objectPath": "/BRCosmetics/Athena/Heroes/HID_028_Athena_Commando_F.HID_028_Athena_Commando_F"
+    },
+    "athenaCharacterItemDefinitions": {
+        "objectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_028_Athena_Commando_F.CID_028_Athena_Commando_F"
+    },
+    "gender": "Female"
+}

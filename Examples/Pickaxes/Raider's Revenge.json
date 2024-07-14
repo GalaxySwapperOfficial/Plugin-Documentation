@@ -1,0 +1,12 @@
+{
+    "type": "pickaxe",
+    "itemName": "Default Pickaxe to Raider's Revenge",
+    "itemDefinition": "DefaultPickaxe",
+    "overrideItemDefinition": "Pickaxe_Lockjaw",
+    "weaponDefinitions": [
+        {
+            "objectPath": "/Game/Athena/Items/Weapons/WID_Harvest_Pickaxe_Athena_C_T01",
+            "overrideObjectPath": "/Game/Athena/Items/Weapons/WID_Harvest_Pickaxe_Lockjaw_Athena_C_T01"
+        }
+    ]
+}

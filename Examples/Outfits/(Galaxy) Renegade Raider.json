@@ -1,0 +1,49 @@
+{
+    "type": "outfit",
+    "itemName": "(Galaxy) Renegade Raider",
+    "itemDefinition": "CID_028_Athena_Commando_F",
+    "characterParts": [
+        {
+            "objectPath": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_Celestial",
+            "swaps": [
+                {
+                    "type": "string",
+                    "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Neon_Tight_Suit/Meshes/F_MED_Neon_Tight_Suit.F_MED_Neon_Tight_Suit",
+                    "replace": "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Meshes/F_Med_Soldier_01.F_Med_Soldier_01"
+                },
+                {
+                    "type": "string",
+                    "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Neon_Tight_Suit/Skins/Celestial/Materials/F_MED_Celestial_Body.F_MED_Celestial_Body",
+                    "replace": "/BRCosmetics/Accessories/FORT_Backpacks/Backpack_F_MED_Celestial/Materials/F_MED_Celestial_Backpack.F_MED_Celestial_Backpack"
+                }
+            ]
+        },
+        {
+            "objectPath": "/BRCosmetics/Athena/Heroes/Meshes/Heads/F_MED_ASN_Sarah_Head_02_ATH",
+            "swaps": [
+                {
+                    "type": "string",
+                    "search": "/Game/Characters/Player/Female/Medium/Heads/F_MED_ASN_Sarah_Head_01/Materials/F_MED_ASN_Sarah_Head_02.F_MED_ASN_Sarah_Head_02",
+                    "replace": "/Game/Characters/Player/Female/Medium/Heads/F_MED_Lemon_Lime_Head/Skins/Celestial/Materials/F_MED_Celestial_Head.F_MED_Celestial_Head"
+                }
+            ]
+        },
+        {
+            "objectPath": "/BRCosmetics/Characters/CharacterParts/Hats/Hat_F_Commando_08_V01",
+            "swaps": [
+                {
+                    "type": "string",
+                    "search": "/BRCosmetics/Accessories/Hats/Materials/Female_Commando_07_V01.Female_Commando_07_V01",
+                    "replace": "/BRCosmetics/Accessories/FORT_Backpacks/Backpack_F_MED_Celestial/Materials/F_MED_Celestial_Backpack.F_MED_Celestial_Backpack"
+                }
+            ]
+        }
+    ],
+    "heroDefinition": {
+        "objectPath": "/BRCosmetics/Athena/Heroes/HID_028_Athena_Commando_F.HID_028_Athena_Commando_F"
+    },
+    "athenaCharacterItemDefinitions": {
+        "objectPath": "/BRCosmetics/Athena/Items/Cosmetics/Characters/CID_028_Athena_Commando_F.CID_028_Athena_Commando_F"
+    },
+    "gender": "Female"
+}
